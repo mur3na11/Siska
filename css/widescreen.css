@@ -1,0 +1,78 @@
+#showcase {
+  min-height: 50vh;
+}
+
+#showcase:before {
+  background: #333 url("../img/tablet/showcase_final.jpg") no-repeat center center/cover;
+}
+
+#showcase .showcase-content {
+  min-height: 50vh;
+}
+
+#showcase .showcase-content h1 {
+  padding: 4rem 0 7rem 0;
+
+}
+
+#about .container p {
+  padding: 1rem 4rem;
+
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+}
+
+#news .container {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#news img {
+  height: auto;
+  align-self: center;
+}
+
+.sign {
+
+  margin: 0 0 0.8rem;
+
+}
+
+#dogs .text {
+  font-size: 1.5rem;
+}
+
+.dog-main li {
+  font-size: 1.2rem;
+}
+
+.male img.svg {
+  left: 45%;
+}
+
+.female img.svg {
+  left: 45%;
+}
+
+#dogs .text,
+#litters .text {
+  font-size: 1.6rem;
+}
+
+#litters>h1 {
+  font-size: 3.5rem;
+  line-height: 1.6;
+
+}
+
+#litters_text .container_p p {
+  width: 57.33%;
+}
+
+#litters .text a:hover {
+  color: var(--active-color);
+  font-size: 1.9rem;
+  transition: all 1s;
+}

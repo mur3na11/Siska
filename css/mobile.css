@@ -1,0 +1,309 @@
+  #navbar ul li a {
+    padding: 0.75rem 0.3rem;
+  }
+
+  #navbar h1 {
+    font-size: 2.6rem;
+    padding: 0.75rem 0;
+  }
+
+  #navbar>a>img {
+    width: 2rem;
+  }
+
+  .menu-wrap {
+    z-index: 1;
+  }
+
+  .menu-wrap .menu>div>div>ul>li {
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 0.5rem 0;
+  }
+
+  .menu-wrap .hamburger {
+    width: 80px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-wrap .hamburger>div {
+    height: 4px;
+  }
+
+  /* Hamburger Lines - Top & Bottom */
+  .menu-wrap .hamburger>div::before,
+  .menu-wrap .hamburger>div::after {
+    height: 4px;
+  }
+
+  /* Hamburger Lines - Top & Bottom */
+  .menu-wrap .hamburger>div::before,
+  .menu-wrap .hamburger>div::after {
+    top: -15px;
+  }
+
+  /* Moves Line Down */
+  .menu-wrap .hamburger>div::after {
+    top: 15px;
+  }
+
+  #showcase:before {
+    background: #333 url("../img/showcase_final_mobile.jpg") no-repeat center center/cover;
+  }
+
+  #showcase .showcase-content {
+    padding: 1.25rem 2rem;
+    min-height: 30vh;
+    max-height: 30rem;
+  }
+
+  #showcase .showcase-content h1 {
+    padding: 2rem 0;
+    font-size: 1.9rem;
+    line-height: 1.2;
+    text-align: right;
+
+  }
+
+  p {
+    margin: 0.45rem 0;
+  }
+
+  #showcase:before {
+    background: #333 url("../img/mobile/showcase_final.jpg") no-repeat center center/cover;
+  }
+
+  #showcase .showcase-content h2 {
+    font-size: 1.2rem;
+    padding-top: 4rem;
+    text-align: right;
+    margin-top: 0;
+    line-height: 2;
+  }
+
+  #about .container p {
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    line-height: 1.3;
+    width: 100%;
+  }
+
+  .photos {
+    flex-direction: column;
+    padding: 1rem 0;
+    /* margin: 2rem 0; */
+  }
+
+  #about h2 {
+    font-size: 4rem;
+    line-height: 1.4;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  #contact h2 {
+    margin: -2rem 0 -1rem;
+    font-size: 3.4rem;
+    line-height: 1.5;
+  }
+
+  #contact p {
+    margin: 1rem 0 0;
+    font-size: 0.9rem;
+  }
+
+  #contact .contact-form .form-group {
+    padding: 0 0.5rem;
+  }
+
+  #contact .contact-form textarea {
+    margin: 0;
+    min-height: 12rem;
+  }
+
+  .btn {
+    width: 96.5% !important;
+  }
+
+  #map {
+    min-height: 30rem;
+    padding: 0.5rem;
+  }
+
+  #news .container {
+    padding: 0;
+  }
+
+  .news>picture img {
+    width: 100%;
+    padding: 0;
+    transform: translateY(7rem);
+    opacity: 0;
+  }
+
+  .news h1 {
+
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .news p {
+    font-size: 0.7rem;
+    line-height: 1.5;
+  }
+
+  .dogs:before {
+    background: none;
+  }
+
+  .dogs .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: auto;
+  }
+
+  .parents {
+    margin-top: -4.5rem;
+  }
+
+  .album {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dog-card-left .visit-card h2,
+  .dog-card-left .visit-card p,
+  .dog-card-right .visit-card h2,
+  .dog-card-right .visit-card p {
+    text-align: center;
+  }
+
+  #dogs .button {
+    font-size: 0.9rem;
+    width: 75%;
+  }
+
+  .male img.svg {
+    left: 45.8%
+  }
+
+  .female img.svg {
+    left: 44%;
+    top: 23%;
+  }
+
+  #dogs .text,
+  #litters .text {
+
+    font-size: 1rem;
+    line-height: 0.8;
+  }
+
+  .dog-name-text {
+    height: 6rem;
+    width: 60%;
+
+  }
+
+  .dog-name img.svg {
+    width: 4rem;
+    position: absolute;
+    top: 15%;
+  }
+
+  .dog-name-text h1 {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .album a {
+    align-self: center;
+  }
+
+  .album a img {
+    align-self: center;
+
+  }
+
+  #litters_gallery:before {
+    display: none;
+  }
+
+  #litters .heading h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: 0.5rem 1rem 1rem 1rem;
+  }
+
+  #litters .heading {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  #litters_text .container_p {
+    padding: 1rem 0.5rem;
+    margin: 2rem 0;
+    background: var(--secondary-background);
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  #litters_text .container_p p {
+    margin: 1rem auto;
+    padding: 0 1rem;
+  }
+
+  #litters_gallery {
+    margin-top: -3rem;
+  }
+
+  #litter-pic {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  #litter-pic>li {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+
+  #litters_gallery h2 {
+    font-size: 4rem;
+
+  }
+
+  .puppies {
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .puppies img {
+    width: 80%;
+  }
+
+  .puppies_names {
+    width: 55%;
+    padding-left: 1rem;
+    text-align: center !important;
+    align-items: center;
+  }
+
+  .puppies_names h4 {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+
+
+  .puppies_names h5 {
+    font-size: 0.8rem;
+    padding: 0;
