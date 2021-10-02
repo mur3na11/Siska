@@ -51,7 +51,7 @@
   }
 
   #showcase:before {
-    background: #333 url("../img/showcase_final_mobile.jpg") no-repeat center center/cover;
+    /* background: #333 url("../img/showcase_final_mobile.jpg") no-repeat center center/cover; */
   }
 
   #showcase .showcase-content {
@@ -70,10 +70,6 @@
 
   p {
     margin: 0.45rem 0;
-  }
-
-  #showcase:before {
-    background: #333 url("../img/mobile/showcase_final.jpg") no-repeat center center/cover;
   }
 
   #showcase .showcase-content h2 {

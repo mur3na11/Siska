@@ -21,11 +21,7 @@
     }
 
     #showcase .showcase-content h1 {
-        font-size: 4rem;
-    }
-
-    #showcase:before {
-        background: #333 url("../img/tablet/showcase_final.jpg") no-repeat center center/cover;
+        font-size: 7rem;
     }
 
     #navbar ul li a {

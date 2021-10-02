@@ -3,7 +3,7 @@
 }
 
 #showcase:before {
-  background: #333 url("../img/tablet/showcase_final.jpg") no-repeat center center/cover;
+  /* background: #333 url("../img/tablet/showcase_final.jpg") no-repeat center center/cover; */
 }
 
 #showcase .showcase-content {
