@@ -62,10 +62,9 @@
 
   #showcase .showcase-content h1 {
     padding: 2rem 0;
-    font-size: 1.9rem;
+    font-size: 5rem;
     line-height: 1.2;
     text-align: right;
-
   }
 
   p {
@@ -303,3 +302,4 @@
   .puppies_names h5 {
     font-size: 0.8rem;
     padding: 0;
+  }

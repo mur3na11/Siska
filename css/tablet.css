@@ -213,6 +213,12 @@
         /* margin: 2rem 0; */
     }
 
+    .photos img {
+        width: auto;
+        height: 330px;
+        margin-bottom: 2rem;
+    }
+
     .image {
         width: 70%;
         margin: 1rem 0;

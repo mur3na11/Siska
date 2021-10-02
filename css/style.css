@@ -19,13 +19,13 @@
   --active-light: #d6e9f8;
   --primary-background: #1b1b1b;
   --secondary-color: #be361e;
-  --secondary-light: #ffcab1;
+  --secondary-light: #c2887e;
   --secondary-background: #707070;
   --sign-background: rgba(255, 245, 241, 0.5);
   --primary-superlight: #fff;
   --gray1: #8d9b9a;
   --gray2: #c7d8d7;
-  --overlay-color: rgba(19, 61, 61, 0.801);
+  --overlay-color: rgba(8, 22, 22, 0.849);
   --blue-color: #46659e;
   --red-color: #ca264f;
   --menu-speed: 0.75s;
@@ -34,7 +34,7 @@
 
 body {
   background: var(--primary-background);
-  font-family: Palanquin;
+  font-family: 'Mukta', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.12rem;
@@ -199,7 +199,7 @@ nav img {
 }
 
 #navbar ul li a:hover {
-  background: var(--gray2);
+  background: var(--primary-dark-color);
   border-radius: 2rem;
   transition: all 0.5s;
 }
@@ -249,15 +249,14 @@ nav img {
 }
 
 #showcase .showcase-content h1 {
-  font-family: Palanquin Dark;
   font-style: normal;
   font-weight: bold;
   font-size: 10rem;
   line-height: 10rem;
   text-align: right;
-  color: #FFFFFF;
+  color: var(--active-light);
   text-shadow: -1px 1px 7px rgba(0, 0, 0, 0.5);
-  margin: 0 0 8rem;
+  margin: 3rem 0 8rem;
   transform: translateY(7rem);
   opacity: 0;
   animation: up 0.9s forwards ease-out;
@@ -408,8 +407,8 @@ h2.animated {
   font-style: normal;
   font-weight: bold;
   font-size: 3.5rem;
-  line-height: 9rem;
-  margin: -3rem 0 1rem;
+  line-height: 4rem;
+  margin: 0rem 0 1rem;
   transform: scale(0);
   opacity: 0;
 }
@@ -465,12 +464,16 @@ h2.animated {
   line-height: 2rem;
   color: var(--primary-color);
   resize: none;
-  transition: all 2s;
+  transition: all 0.66s;
 
 }
 
 #contact .contact-form input:hover,
 #contact .contact-form textarea:hover,
+#contact button:hover {
+  background: var(--secondary-light);
+}
+
 #contact button:hover {
   background: var(--secondary-color);
 }
