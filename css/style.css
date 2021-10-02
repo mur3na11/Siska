@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: Oswald;
-  src: url("font/oswald.ttf");
+  src: url("../fonts/Oswald-Regular.ttf");
 }
 
 :root {
@@ -20,7 +20,9 @@
   --primary-background: #1b1b1b;
   --secondary-color: #be361e;
   --secondary-light: #c2887e;
-  --secondary-background: #707070;
+  --secondary-background: #272727;
+  --tertiary-background: #202020;
+
   --sign-background: rgba(255, 245, 241, 0.5);
   --primary-superlight: #fff;
   --gray1: #8d9b9a;
@@ -33,7 +35,7 @@
 }
 
 body {
-  background: var(--primary-background);
+  background: var(--secondary-background);
   font-family: 'Mukta', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -116,11 +118,11 @@ p {
 
 .text-ma,
 .text-primary {
-  color: var(--primary-color);
+  color: var(--primary-light);
 }
 
 .text-secondary {
-  color: var(--primary-color);
+  color: var(--primary-light);
 }
 
 .btn {
@@ -252,7 +254,7 @@ nav img {
   font-style: normal;
   font-weight: bold;
   font-size: 10rem;
-  line-height: 10rem;
+  line-height: 14rem;
   text-align: right;
   color: var(--active-light);
   text-shadow: -1px 1px 7px rgba(0, 0, 0, 0.5);
@@ -309,14 +311,15 @@ nav img {
 
 }
 
-#about h2 {
+#about h2,
+.container h2 {
   color: var(--gray1);
   font-family: Oswald;
   font-style: normal;
   font-weight: bold;
   font-size: 3.5rem;
   line-height: 1.5;
-  margin: 1rem 0;
+  margin: 3rem 0 2rem;
   transform: scale(0);
   opacity: 0;
 
@@ -336,7 +339,7 @@ h2.animated {
   color: var(--active-light);
   width: 60%;
   padding: 0.4rem 1rem;
-  font-family: Palanquin;
+
   font-style: normal;
   font-weight: normal;
   font-size: 1.3rem;
@@ -408,7 +411,7 @@ h2.animated {
   font-weight: bold;
   font-size: 3.5rem;
   line-height: 4rem;
-  margin: 0rem 0 1rem;
+  margin: 0rem 0 3rem;
   transform: scale(0);
   opacity: 0;
 }
@@ -446,8 +449,8 @@ h2.animated {
 
 #contact .contact-form label {
   display: block;
-  padding: 0 0 0 0.8rem;
-  color: var(--gray2);
+  padding: 0.6rem 0 0.4rem 0.8rem;
+  color: var(--primary-light);
 }
 
 #contact .contact-form input,
@@ -456,13 +459,13 @@ h2.animated {
   width: 100%;
   padding: 0.8rem;
   border: none;
-  background: var(--secondary-background);
-  font-family: Palanquin;
+  background: var(--tertiary-background);
+  font-family: Oswald;
   font-style: normal;
   font-weight: normal;
   font-size: 1.12rem;
   line-height: 2rem;
-  color: var(--primary-color);
+  color: var(--primary-dark-color);
   resize: none;
   transition: all 0.66s;
 
@@ -471,7 +474,7 @@ h2.animated {
 #contact .contact-form input:hover,
 #contact .contact-form textarea:hover,
 #contact button:hover {
-  background: var(--secondary-light);
+  background: var(--primary-color);
 }
 
 #contact button:hover {
@@ -725,6 +728,9 @@ h2.animated {
   height: 60%;
 }
 
+#dogs {
+  height: 85vh;
+}
 
 #dogs .text,
 #litters .text {
@@ -853,22 +859,22 @@ ul {
 
 #dog-pic img.visible {
   display: block;
-  margin: auto;
+  margin: 2rem auto 0 auto;
 }
 
 #dogs .button {
   padding: 0.3rem;
   position: relative;
   background: none;
-  color: var(--primary-color);
+  color: var(--primary-light);
   width: 50%;
   height: 6rem;
-  margin: 3rem auto;
-  border: 0.4rem solid var(--primary-color);
-  font-family: Palanquin Dark;
+  margin: 13rem auto;
+  border: 0.4rem solid var(--primary-light);
+  font-family: Oswald;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   line-height: 4.25rem;
   text-align: center;
   letter-spacing: 0.105em;
@@ -897,11 +903,11 @@ ul {
 #dogs a,
 #dogs a:visited {
 
-  color: var(--primary-color);
+  color: var(--primary-light);
 }
 
 #dogs a:hover {
-  color: var(--primary-color);
+  color: var(--primary-light);
 }
 
 #dogs .button:hover {
@@ -1099,7 +1105,9 @@ footer {
 
 footer p {
   padding: 1rem;
+  font-family: Oswald;
   margin: 0;
+  background-color: var(--primary-background);
 }
 
 
