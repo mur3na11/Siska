@@ -202,6 +202,10 @@ p {
   top: 23%;
 }
 
+#dogs {
+  height: 90vh;
+}
+
 #dogs .text,
 #litters .text {
 
