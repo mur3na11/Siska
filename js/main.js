@@ -26,8 +26,16 @@ function initMap() {
 //     document.querySelector("#navbar").style.opacity = 1;
 //   }
 // });
+$(document).ready(function() {
+  activelink()
+});
 
-
+function activelink(){
+  $('.nav-item').click(function(){
+    $('.nav-item').removeClass('active')
+    $(this).closest('.nav-item').addClass('active')
+  })
+}
 // Smooth Scrolling
 $("#navbar a").on("click", function (event) {
   if (this.hash !== "") {
@@ -40,6 +48,7 @@ $("#navbar a").on("click", function (event) {
       },
       800
     );
+
     $('.toggler').prop('checked', false);
   }
 

@@ -83,6 +83,18 @@ p {
   line-height: 2;
 }
 
+.portfolio {
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio div {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 3rem;
+}
+
 #about .container p {
   padding: 0.5rem 1rem;
   font-size: 1.4rem;
