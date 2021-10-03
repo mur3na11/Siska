@@ -296,8 +296,13 @@ nav img {
   margin-bottom: 5rem;
 }
 
+#about h2 {
+  margin-top: 3rem;
+}
 
-#what .container {}
+#work h2 {
+  margin-top: 0;
+}
 
 .portfolio {
   padding: 3rem 0 0;
@@ -323,6 +328,8 @@ nav img {
 
 .portfolio img {
   color: var(--primary-light);
+  width: 75%;
+  align-self: center;
 }
 
 .about {
